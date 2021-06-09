@@ -1,0 +1,12 @@
+﻿userName=qa_automation_team+testAccount@cloudinary.com
+password=20Sdy@75KF%b
+url=https://cloudinary.com/users/login
+E-mail=xpath://input[@id="user_session_email"]
+passEl=xpath://input[@id="user_session_password"]
+signInBtn=xpath://button[@id='sign-in'] 
+MediaLibTab=xpath://a[contains(@href,'/console/media_library')]
+samplePic=xpath://img[@alt="sample"]
+picManage=xpath://div[contains(text(),"Manage")]
+imageTitle=xpath:(//input[@data-test='item-title'])[2]
+imageNameForValidate=sample
+driver=chrome
